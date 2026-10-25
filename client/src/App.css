@@ -1,0 +1,36 @@
+.hero-image .art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image .image-card {
+  position: relative;
+  z-index: 1;
+}
+
+.product-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.product-media {
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-media .art {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.4s;
+}
+
+.product-card:hover .product-media .art {
+  transform: scale(1.06);
+}
+
+.product-info {
+  padding: 24px 28px 28px;
+}
